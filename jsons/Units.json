@@ -1,0 +1,454 @@
+[
+	/* Ancient Era */
+	{
+		"name": "Gatherer",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": [
+			"Can construct [Gathering Spot]",
+			"Excess Food converted to Production when under construction"
+		],
+		"cost": 50,
+		"requiredTech": "Gathering"
+
+	},
+	{
+		"name": "Worker",
+		"unitType": "Civilian",
+		"movement": 1,
+		"uniques": [ "Can build [Land] improvements on tiles", "Excess Food converted to Production when under construction" ],
+		"cost": 90,
+		"requiredTech": "Stone Tools"
+
+	},
+	{
+		"name": "Settler",
+		"unitType": "Civilian",
+		"movement": 1,
+		"cost": 150,
+		"requiredTech": "Sedentary Lifestyle",
+		"uniques": [
+			"Founds a new city",
+			"Excess Food converted to Production when under construction",
+			"Requires at least [2] population"
+		]
+	},
+	{
+		"name": "Stick Fighter",
+		"unitType": "Melee",
+		"movement": 1,
+		"strength": 8,
+		"obsoleteTech": "Wood Working",
+		"upgradesTo": "Clubman",
+		"cost": 25
+
+	},
+	{
+		"name": "Stone Thrower",
+		"unitType": "Ranged",
+		"movement": 1,
+		"strength": 8,
+		"rangedStrength": 4,
+		"range": 1,
+		"obsoleteTech": "Trapping",
+		"upgradesTo": "Slinger",
+		"cost": 30
+
+	},
+	{
+		"name": "Clubman",
+		"unitType": "Melee",
+		"movement": 1,
+		"strength": 12,
+		"cost": 35,
+		"obsoleteTech": "Stone Tools",
+		"upgradesTo": "Stone Spearman",
+		"requiredTech": "Wood Working"
+
+	},
+	{
+		"name": "Stone Spearman",
+		"unitType": "Melee",
+		"movement": 1,
+		"strength": 14,
+		"cost": 50,
+		"uniques": [ "Bonus vs Mounted 50%" ],
+		"requiredTech": "Stone Working"
+
+	},
+	{
+		"name": "Wanderer",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 4,
+		"obsoleteTech": "Hunting",
+		"upgradesTo": "Hunter",
+		"cost": 25,
+		"requiredTech": "Nomadism"
+
+	},
+	{
+		"name": "Stone Axeman",
+		"unitType": "Melee",
+		"movement": 1,
+		"strength": 16,
+		"cost": 60,
+		"uniques": [ "Bonus vs Melee 50%" ],
+		"requiredTech": "Stone Tools"
+
+	},
+	{
+		"name": "Hunter",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 10,
+		"cost": 40,
+		"obsoleteTech": "Exploration",
+		"upgradesTo": "Traveler",
+		"uniques": [ "+1 Sight" ],
+		"requiredTech": "Hunting"
+
+	},
+
+	{
+		"name": "Raft",
+		"unitType": "Water melee",
+		"movement": 1,
+		"strength": 6,
+		"cost": 50,
+		"obsoleteTech": "Boat Building",
+		"upgradesTo": "Canoe",
+		"uniques": [ "Cannot enter ocean tiles", "Must be next to [Coast]" ],
+		"requiredTech": "Raft Building"
+
+	},
+
+	{
+		"name": "Slinger",
+		"unitType": "Ranged",
+		"movement": 1,
+		"strength": 10,
+		"rangedStrength": 10,
+		"range": 1,
+		"requiredTech": "Trapping",
+		"cost": 60
+
+	},
+
+	{
+		"name": "Fishing Raft",
+		"unitType": "Water civillian",
+		"movement": 1,
+		"cost": 70,
+		"requiredTech": "Fishing",
+		"uniques": [ "Can build water improvements water on tiles", "May create improvements on water resources", "Must be next to [Coast]" ]
+	},
+
+	{
+		"name": "Trained Dogs",
+		"unitType": "Mounted",
+		"strength": 15,
+		"movement": 2,
+		"cost": 60,
+		"requiredTech": "Dog Domestication",
+		"uniques": [ "Penalty vs City 75%" ]
+	},
+	{
+		"name": "Obsidian Swordsman",
+		"unitType": "Melee",
+		"strength": 20,
+		"movement": 1,
+		"cost": 100,
+		"requiredTech": "Obsidian Tools",
+		"requiredResource": "Obsidian",
+		"uniques": [ "Bonus vs City 15%" ]
+	},
+	{
+		"name": "Obsidian Axeman",
+		"unitType": "Melee",
+		"movement": 1,
+		"strength": 18,
+		"cost": 90,
+		"requiredResource": "Obsidian",
+		"uniques": [ "Bonus vs Melee 50%" ],
+		"requiredTech": "Obsidian Tools"
+
+	},
+	{
+		"name": "Obsidian Spearman",
+		"unitType": "Melee",
+		"movement": 1,
+		"strength": 18,
+		"cost": 90,
+		"requiredResource": "Obsidian",
+		"uniques": [ "Bonus vs Mounted 50%" ],
+		"requiredTech": "Obsidian Tools"
+
+	},
+	{
+		"name": "Archer",
+		"unitType": "Ranged",
+		"movement": 1,
+		"strength": 15,
+		"rangedStrength": 18,
+		"range": 2,
+		"requiredTech": "Archery",
+		"cost": 100
+
+	},
+
+	{
+		"name": "Canoe",
+		"unitType": "Water melee",
+		"movement": 2,
+		"strength": 10,
+		"cost": 120,
+		"uniques": [ "Cannot enter ocean tiles", "Must be next to [Coast]" ],
+		"requiredTech": "Boat Building"
+
+	},
+
+	{
+		"name": "Traveler",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 16,
+		"cost": 80,
+		"uniques": [ "+1 Sight", "All tiles cost 1 movement" ],
+		"requiredTech": "Exploration"
+
+	},
+	{
+		"name": "Javelineer",
+		"unitType": "Ranged",
+		"movement": 1,
+		"strength": 18,
+		"rangedStrength": 25,
+		"requiredResource": "Copper",
+		"range": 1,
+		"requiredTech": "Copper Working",
+		"cost": 100
+
+	},
+
+	{
+		"name": "Catamaran",
+		"unitType": "Water ranged",
+		"movement": 3,
+		"range": 1,
+		"strength": 12,
+		"rangedStrength": 12,
+		"cost": 140,
+		"uniques": [ "Cannot enter ocean tiles", "Must be next to [Coast]" ],
+		"requiredTech": "Sailing"
+
+	},
+
+	{
+		"name": "Horseman",
+		"unitType": "Mounted",
+		"movement": 2,
+		"strength": 25,
+		"requiredResource": "Horses",
+		"requiredTech": "Horseback Riding",
+		"cost": 120
+
+	},
+	{
+		"name": "Chariot",
+		"unitType": "Mounted",
+		"movement": 2,
+		"strength": 30,
+		"requiredResource": "Horses",
+		"requiredTech": "The Wheel",
+		"cost": 150
+
+	},
+	{
+		"name": "Bronze Swordsman",
+		"unitType": "Melee",
+		"strength": 35,
+		"movement": 1,
+		"cost": 160,
+		"requiredTech": "Iron Working",
+		"requiredResource": "Copper",
+		"uniques": [ "Bonus vs City 15%" ]
+	},
+	{
+		"name": "Bronze Axeman",
+		"unitType": "Melee",
+		"movement": 1,
+		"strength": 30,
+		"cost": 150,
+		"requiredResource": "Copper",
+		"uniques": [ "Bonus vs Melee 50%" ],
+		"requiredTech": "Bronze Working"
+
+	},
+	{
+		"name": "Bronze Spearman",
+		"unitType": "Melee",
+		"movement": 1,
+		"strength": 28,
+		"cost": 150,
+		"requiredResource": "Copper",
+		"uniques": [ "Bonus vs Mounted 50%" ],
+		"requiredTech": "Bronze Working"
+
+	},
+	{
+		"name": "Composite Archer",
+		"unitType": "Ranged",
+		"movement": 1,
+		"strength": 25,
+		"rangedStrength": 35,
+		"range": 2,
+		"requiredTech": "Construction",
+		"cost": 160
+
+	},
+	{
+		"name": "Catapult",
+		"unitType": "Siege",
+		"movement": 2,
+		"range": 2,
+		"strength": 20,
+		"rangedStrength": 25,
+		"cost": 200,
+		"requiredTech": "Mathematics",
+		"uniques": [
+			"[+200]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"Must set up to ranged attack",
+			"[-1] Sight",
+			"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "throw"
+	},
+	{
+		"name": "Ballista",
+		"unitType": "Siege",
+		"movement": 2,
+		"range": 2,
+		"strength": 25,
+		"rangedStrength": 50,
+		"cost": 250,
+		"requiredTech": "Engineering",
+		"uniques": [
+			"[+20]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"Must set up to ranged attack",
+			"[-1] Sight",
+			"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "throw"
+	},
+	{
+		"name": "Scorpion",
+		"unitType": "Siege",
+		"movement": 1,
+		"strength": 25,
+		"range": 1,
+		"rangedStrength": 60,
+		"cost": 300,
+		"requiredTech": "Engineering",
+
+		"uniques": [
+			"No defensive terrain bonus",
+			"Must set up to ranged attack",
+			"[-1] Sight",
+			"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "throw"
+	},
+	{
+		"name": "Galley",
+		"unitType": "Water melee",
+		"movement": 3,
+		"strength": 20,
+		"cost": 225,
+		"uniques": [ "Cannot enter ocean tiles", "Must be next to [Coast]" ],
+		"requiredTech": "Naval Warfare"
+
+	},
+	{
+		"name": "War Galley",
+		"unitType": "Water ranged",
+		"movement": 3,
+		"strength": 25,
+		"rangedStrength": 30,
+		"range": 1,
+		"cost": 325,
+		"uniques": [ "Cannot enter ocean tiles", "Must be next to [Coast]" ],
+		"requiredTech": "Naval Warfare"
+
+	},
+
+
+
+
+	{
+		"name": "Great Artist",
+		"unitType": "Civilian",
+		"uniques": [ "Can start an [8]-turn golden age", "Great Person - [Culture]", "Unbuildable", "Uncapturable" ],
+		"movement": 2
+	},
+	{
+		"name": "Great Scientist",
+		"unitType": "Civilian",
+		"uniques": [ "Can hurry technology research", "Unbuildable", "Uncapturable" ],
+		"movement": 2
+	},
+	{
+		"name": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+			"Great Person - [Gold]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Great Engineer",
+		"unitType": "Civilian",
+		"uniques": [ "Can speed up construction of a building", "Great Person - [Production]", "Unbuildable", "Uncapturable" ],
+		"movement": 2
+	},
+	{
+		"name": "Great Prophet",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can [Spread Religion] [4] times",
+			"Removes other religions when spreading religion",
+			"May found a religion",
+			"May enhance a religion",
+			"May enter foreign tiles without open borders",
+			"[-1] Sight",
+			"Great Person - [Faith]",
+			"Unbuildable",
+			"Religious Unit",
+			"Hidden when religion is disabled",
+			"Takes your religion over the one in their birth city"
+		],
+		"movement": 2,
+		"religiousStrength": 1000
+	},
+	{
+		"name": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can start an [8]-turn golden age",
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"Great Person - [War]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	}
+
+]

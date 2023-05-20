@@ -1,0 +1,219 @@
+[
+  {
+    "name": "Tales",
+    "era": "Paleolithic Age",
+    "priorities": {
+      "Neutral": 30,
+      "Cultural": 30,
+      "Diplomatic": 0,
+      "Domination": 0,
+      "Scientific": 30
+    },
+    "uniques": [
+      "[+1 Culture] [in all cities]"
+
+    ],
+    "policies": [
+      {
+        "name": "Legend of Ivory",
+        "uniques": [
+          "[+1 Culture] from [Ivory] tiles [in all cities]"
+
+        ],
+        "row": 1,
+        "column": 1
+      },
+      {
+        "name": "Legend of Bison",
+        "uniques": [
+          "[+1 Culture] from [Bison] tiles [in all cities]"
+
+        ],
+        "row": 1,
+        "column": 3
+      },
+      {
+        "name": "Legend of Pig",
+        "uniques": [
+          "[+1 Culture] from [Truffles] tiles [in all cities]"
+
+        ],
+        "row": 1,
+        "column": 5
+      },
+
+      {
+        "name": "Legend of Deer",
+        "uniques": [
+          "[+1 Culture] from [Deer] tiles [in all cities]"
+        ],
+        "requires": [ "Legend of Bison" ],
+        "row": 2,
+        "column": 2
+      },
+      {
+        "name": "Legend of Cattle",
+        "uniques": [
+          "[+1 Production] from [Cattle] tiles [in all cities]"
+        ],
+        "requires": [ "Legend of Bison" ],
+        "row": 2,
+        "column": 4
+      },
+
+      {
+        "name": "Tales Complete",
+        "uniques": [
+          "[+1 science] [in all cities]"
+        ]
+      }
+    ]
+  }
+  
+  {
+    "name": "Mythology",
+    "era": "Ancient Era",
+    "priorities": {
+      "Neutral": 30,
+      "Cultural": 30,
+      "Diplomatic": 0,
+      "Domination": 0,
+      "Scientific": 30
+    },
+    "uniques": [
+      "[+1 Culture] [in all cities]"
+
+    ],
+    "policies": [
+      {
+        "name": "Myth of Creation",
+        "uniques": [
+          "[+2 Science] [in all cities]"
+
+        ],
+        "row": 1,
+        "column": 3
+      },
+      {
+        "name": "Myth of Demeter and Persephone",
+        "uniques": [
+          "[+2 Food] [in all cities]"
+
+        ],
+        "requires": [ "Myth of Creation" ],
+        "row": 2,
+        "column": 1
+      },
+      {
+        "name": "Myth of King Midas",
+        "uniques": [
+          "[+2 Gold] [in all cities]"
+
+        ],
+        "requires": [ "Myth of Creation" ],
+        "row": 1,
+        "column": 1
+      },
+      {
+        "name": "Myth of Prometheus",
+        "uniques": [
+          "+3 Happiness"
+
+        ],
+        "requires": [ "Myth of Creation" ],
+        "row": 1,
+        "column": 5
+      },
+      {
+        "name": "Myth of Hephaestus",
+        "uniques": [
+          "[+2 Production] [in all cities]"
+
+        ],
+        "requires": [ "Myth of Creation" ],
+        "row": 2,
+        "column": 5
+      },
+
+      {
+        "name": "Mythology Complete",
+        "uniques": [
+          "Free Technology"
+        ]
+      }
+    ]
+  }
+ 
+  /*
+  {
+    "name": "Mythology",
+    "era": "Ancient Age",
+    "priorities": {
+      "Neutral": 30,
+      "Cultural": 30,
+      "Diplomatic": 0,
+      "Domination": 0,
+      "Scientific": 30,
+      "uniques": [
+        "[+2 Culture] [in all cities]"
+
+      ],
+      "policies": [
+        {
+          "name": "Myth of Creation",
+          "uniques": [
+            "[+2 Science] [in all cities]"
+
+          ],
+          "row": 1,
+          "column": 4
+        },
+        {
+          "name": "Myth of Demeter and Persephone",
+          "uniques": [
+            "[+2 Food] [in all cities]"
+
+          ],
+          "requires": [ "Myth of Creation" ],
+          "row": 2,
+          "column": 1
+        },
+        {
+          "name": "Myth of King Midas",
+          "uniques": [
+            "[+2 Gold] [in all cities]"
+
+          ],
+          "requires": [ "Myth of Creation" ],
+          "row": 3,
+          "column": 2
+        },
+        {
+          "name": "Myth of Prometheus",
+          "uniques": [
+            "+3 Happiness"
+
+          ],
+          "requires": [ "Myth of Creation" ],
+          "row": 4,
+          "column": 4
+        },
+        {
+          "name": "Myth of Hephaestus",
+          "uniques": [
+            "[+2 Production] [in all cities]"
+
+          ],
+          "requires": [ "Myth of Creation" ],
+          "row": 2,
+          "column": 5
+        },
+        {
+          "name": "Mythology Complete",
+          "uniques": [
+            "Free Technology"
+          ]
+        }
+      ]
+    }*/
+]

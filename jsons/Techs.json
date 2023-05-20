@@ -1,0 +1,650 @@
+[
+	{
+		"columnNumber": 0,
+		"era": "Paleolithic Age",
+		"techCost": 20,
+		"buildingCost": 40,
+		"techs": [
+
+			{
+				"name": "Abstractive Thinking",
+				"row": 5,
+				"uniques": [ "Provides the cheapest [Culture] building in your first [20] cities for free" ],
+				"quote": "Within the labyrinth of the mind, abstractive thinking unfurls, transcending boundaries, unlocking new perspectives, and painting the world in vibrant hues of boundless imagination"
+			}
+		]
+	},
+	{
+		"columnNumber": 1,
+		"era": "Paleolithic Age",
+		"techCost": 20,
+		"buildingCost": 30,
+		"techs": [
+
+			{
+				"name": "Nomadism",
+				"row": 3,
+				"prerequisites": [ "Abstractive Thinking" ],
+				"quote": "Embrace the freedom of the open road, for in the journey of the nomad, the world becomes your home"
+			},
+			{
+				"name": "Gathering",
+				"row": 5,
+				"prerequisites": [ "Abstractive Thinking" ],
+				"quote": "Gatherer of Nature's treasures, where hands meet the earth, and the whispers of the wild guide the path"
+			},
+			{
+				"name": "Language",
+				"row": 7,
+				"prerequisites": [ "Abstractive Thinking" ],
+				"uniques": [ "[+1 Culture] [in all cities]", "[+1 Science] [in all cities]" ],
+				"quote": "Language, the bridge that connects souls across time and space, empowering us to weave stories, share knowledge, and understand the tapestry of humanity"
+			}
+		]
+	},
+	{
+		"columnNumber": 2,
+		"era": "Paleolithic Age",
+		"techCost": 30,
+		"buildingCost": 40,
+		"techs": [
+			{
+				"name": "Wood Working",
+				"row": 2,
+				"prerequisites": [ "Gathering" ],
+				"uniques": [ "[+1 Production] [in all cities]" ],
+				"quote": "With each stroke of the chisel, the craftsman breathes life into timber, revealing the artistry hidden within nature's embrace"
+			},
+			{
+				"name": "Herbalism",
+				"row": 4,
+				"prerequisites": [ "Gathering" ],
+				"quote": "In the delicate dance between healer and herb, nature's secrets unfold, bestowing wellness and nurturing the body, mind, and soul"
+			},
+			{
+				"name": "Fire",
+				"row": 6,
+				"prerequisites": [ "Gathering", "Nomadism" ],
+				"quote": "By the flickering flames, stories are kindled, laughter echoes through the night, and the warmth of fellowship embraces us under the starlit canopy"
+			}
+		]
+	},
+	{
+		"columnNumber": 3,
+		"era": "Paleolithic Age",
+		"techCost": 50,
+		"buildingCost": 60,
+		"techs": [
+			{
+				"name": "Tradition",
+				"row": 8,
+				"prerequisites": [ "Fire", "Language" ],
+				"quote": "Rooted in the wisdom of our ancestors, traditions are the threads that weave our past with the present, anchoring us to our heritage and guiding us towards the future"
+			},
+			{
+				"name": "Carving",
+				"row": 2,
+				"prerequisites": [ "Wood Working" ],
+				"quote": ""
+			},
+			{
+				"name": "Stone Working",
+				"row": 4,
+				"prerequisites": [ "Wood Working", "Fire" ],
+				"uniques": [ "[+1 Production] [in all cities]" ]
+			},
+			{
+				"name": "Shamanism",
+				"row": 6,
+				"prerequisites": [ "Herbalism", "Fire" ]
+
+			}
+		]
+	},
+	{
+		"columnNumber": 4,
+		"era": "Paleolithic Age",
+		"techCost": 70,
+		"buildingCost": 80,
+		"techs": [
+			{
+				"name": "Ritualism",
+				"row": 8,
+				"prerequisites": [ "Tradition" ],
+				"quote": ""
+			},
+			{
+				"name": "Hunting",
+				"row": 5,
+				"prerequisites": [ "Stone Working", "Shamanism" ]
+
+			},
+			{
+				"name": "Stone Tools",
+				"row": 4,
+				"prerequisites": [ "Stone Working" ]
+
+			},
+			{
+				"name": "Cave Art",
+				"row": 6,
+				"prerequisites": [ "Tradition", "Shamanism" ]
+
+			}
+		]
+	},
+	{
+		"columnNumber": 5,
+		"era": "Paleolithic Age",
+		"techCost": 100,
+		"buildingCost": 120,
+		"techs": [
+			{
+				"name": "Ceremonial Burial",
+				"row": 8,
+				"prerequisites": [ "Ritualism" ],
+				"quote": ""
+			},
+			{
+				"name": "Celebration",
+				"row": 7,
+				"prerequisites": [ "Ritualism" ]
+
+			},
+			{
+				"name": "Chiefdom",
+				"row": 6,
+				"prerequisites": [ "Cave Art", "Stone Tools" ]
+
+			},
+			{
+				"name": "Trapping",
+				"row": 5,
+				"prerequisites": [ "Hunting" ]
+
+			},
+			{
+				"name": "Raft Building",
+				"row": 2,
+				"prerequisites": [ "Carving", "Stone Tools" ]
+
+			}
+		]
+	},
+	{
+		"columnNumber": 6,
+		"era": "Paleolithic Age",
+		"techCost": 140,
+		"buildingCost": 140,
+		"techs": [
+			{
+				"name": "Mysticism",
+				"row": 7,
+				"prerequisites": [ "Celebration", "Ceremonial Burial" ],
+				"quote": ""
+			},
+			{
+				"name": "Dog Domestication",
+				"row": 6,
+				"prerequisites": [ "Chiefdom", "Trapping" ]
+
+			},
+			{
+				"name": "Pottery",
+				"row": 5,
+				"prerequisites": [ "Trapping", "Chiefdom" ]
+
+			},
+			{
+				"name": "Obsidian Tools",
+				"row": 4,
+				"prerequisites": [ "Stone Tools" ]
+
+			},
+			{
+				"name": "Fishing",
+				"row": 3,
+				"prerequisites": [ "Raft Building", "Trapping" ]
+
+			}
+		]
+	},
+	{
+		"columnNumber": 7,
+		"era": "Neolithic Age",
+		"techCost": 180,
+		"buildingCost": 180,
+		"techs": [
+
+			{
+				"name": "Sedentary Lifestyle",
+				"row": 5,
+				"uniques": ["Free Technology"],
+				"prerequisites": [ "Fishing", "Mysticism", "Pottery", "Dog Domestication", "Obsidian Tools" ]
+			}
+		]
+	},
+	{
+		"columnNumber": 8,
+		"era": "Neolithic Age",
+		"techCost": 200,
+		"buildingCost": 200,
+		"techs": [
+			{
+
+				"name": "Palisade Building",
+				"row": 2,
+				"prerequisites": [ "Sedentary Lifestyle" ],
+				"quote": ""
+			},
+			{
+				"name": "Megalith Construction",
+				"row": 4,
+				"uniques": [ "[+1 Production] from every [Early Engineer]" ],
+				"prerequisites": [ "Sedentary Lifestyle" ]
+
+			},
+			{
+				"name": "Barter",
+				"row": 6,
+				"uniques": [ "[+1 Food] from every [Early Merchant]" ],
+				"prerequisites": [ "Sedentary Lifestyle" ]
+
+			},
+			{
+				"name": "Animal Husbandry",
+				"row": 8,
+				"prerequisites": [ "Sedentary Lifestyle" ]
+
+			}
+		]
+	},
+	{
+		"columnNumber": 9,
+		"era": "Neolithic Age",
+		"techCost": 250,
+		"buildingCost": 220,
+		"techs": [
+			{
+				"name": "Archery",
+				"row": 2,
+				"prerequisites": [ "Palisade Building" ],
+				"quote": ""
+			},
+			{
+				"name": "Agriculture",
+				"row": 6,
+				"prerequisites": [ "Animal Husbandry" ]
+
+			},
+			{
+				"name": "Mining",
+				"row": 4,
+				"prerequisites": [ "Megalith Construction", "Barter" ]
+
+			},
+			{
+				"name": "Slavery",
+				"row": 7,
+				"prerequisites": [ "Barter" ]
+
+			},
+			{
+				"name": "Boat Building",
+				"row": 8,
+				"prerequisites": [ "Barter" ]
+
+			}
+		]
+	},
+	{
+		"columnNumber": 10,
+		"era": "Neolithic Age",
+		"techCost": 300,
+		"buildingCost": 200,
+		"techs": [
+			{
+
+				"name": "Horseback Riding",
+				"row": 2,
+				"prerequisites": [ "Archery", "Agriculture" ],
+				"quote": ""
+			},
+			{
+				"name": "Calendar",
+				"row": 6,
+				"prerequisites": [ "Agriculture" ],
+				"uniques": [ "[+1 Science] from every [Early Scientist]" ]
+
+			},
+			{
+				"name": "Copper Working",
+				"row": 4,
+				"uniques": [ "[+2 Production] [in all cities]" ],
+				"prerequisites": [ "Mining" ]
+
+			},
+			{
+				"name": "Exploration",
+				"row": 8,
+				"prerequisites": [ "Boat Building" ]
+
+			}
+		]
+	},
+	{
+		"columnNumber": 11,
+		"era": "Neolithic Age",
+		"techCost": 350,
+		"buildingCost": 200,
+		"techs": [
+			{
+
+				"name": "Plow",
+				"row": 2,
+				"prerequisites": [ "Horseback Riding", "Copper Working" ],
+				"quote": ""
+			},
+			{
+				"name": "Masonry",
+				"row": 4,
+				"prerequisites": [ "Copper Working", "Calendar" ]
+
+			},
+			{
+				"name": "Astrology",
+				"row": 6,
+				"uniques": [ "[+1 Science] from every [Early Scientist]" ],
+				"prerequisites": [ "Calendar" ]
+
+			},
+			{
+				"name": "Plantations",
+				"row": 7,
+				"prerequisites": [ "Slavery", "Calendar" ]
+
+			}
+		]
+	},
+	{
+		"columnNumber": 12,
+		"era": "Neolithic Age",
+		"techCost": 400,
+		"buildingCost": 200,
+		"techs": [
+			{
+
+				"name": "The Wheel",
+				"row": 2,
+				"uniques": [ "[+1 Science] from every [Early Engineer]", "[+1 Gold] from every [Early Merchant]" ],
+				"prerequisites": [ "Plow", "Masonry" ],
+				"quote": ""
+			},
+			{
+				"name": "Irrigation",
+				"row": 4,
+				"prerequisites": [ "Plow", "Plantations" ]
+
+			},
+			{
+				"name": "Sailing",
+				"row": 8,
+				"prerequisites": [ "Astrology", "Exploration" ]
+
+			}
+		]
+	},
+	{
+		"columnNumber": 13,
+		"era": "Ancient Era",
+		"techCost": 450,
+		"buildingCost": 250,
+		"techs": [
+
+			{
+				"name": "Writing",
+				"row": 5,
+				"uniques": [ "[+1 Science] from every [Peasant]", "Free Technology" ],
+				"prerequisites": [ "The Wheel", "Irrigation", "Sailing" ]
+
+			}
+		]
+	},
+
+	{
+		"columnNumber": 14,
+		"era": "Ancient Era",
+		"techCost": 525,
+		"buildingCost": 200,
+		"techs": [
+			{
+
+				"name": "Bronze Working",
+				"row": 4,
+				"uniques": [ "[+2 Production] [in all cities]", "[+1 Production] from every [Peasant]" ],
+				"prerequisites": [ "Writing" ],
+				"quote": ""
+			},
+			{
+				"name": "Bridge Building",
+				"row": 2,
+				"uniques": [ "[+2 Production] [in all cities]", "Roads connect tiles across rivers" ],
+				"prerequisites": [ "Writing" ]
+
+			},
+			{
+				"name": "Standarization",
+				"row": 5,
+				"uniques": [ "[+1 Gold] from every [Early Merchant]", "[+1 Gold] [in all cities]" ],
+				"prerequisites": [ "Writing" ]
+
+			},
+			{
+				"name": "Sewer Systems",
+				"row": 6,
+				"prerequisites": [ "Writing" ]
+
+			},
+			{
+				"name": "Poetry",
+				"row": 9,
+				"uniques": [ "[+2 Culture] from every [Early Entertainer]", "[+2 Happiness] from every [Early Entertainer]" ],
+				"prerequisites": [ "Writing" ]
+
+			},
+			{
+				"name": "Alphabet",
+				"row": 8,
+				"uniques": [ "[+2 Science] [in all cities]" ],
+				"prerequisites": [ "Writing" ]
+
+			}
+		]
+	},
+
+	{
+		"columnNumber": 15,
+		"era": "Ancient Era",
+		"techCost": 600,
+		"buildingCost": 250,
+		"techs": [
+			{
+
+				"name": "Construction",
+				"row": 4,
+				"uniques": [ "[+1 Production] from every [Early Engineer]" ],
+				"prerequisites": [ "Bridge Building", "Bronze Working", "Sewer Systems" ],
+				"quote": ""
+			},
+			{
+				"name": "Naval Warfare",
+				"row": 2,
+				"prerequisites": [ "Bridge Building", "Bronze Working" ]
+
+			},
+			{
+				"name": "Mathematics",
+				"row": 7,
+				"uniques": [ "[+2 Science] from every [Early Scientist]", "[+1 Science] from every [Early Engineer]" ],
+				"prerequisites": [ "Alphabet", "Standarization" ]
+
+			},
+			{
+				"name": "Currency",
+				"row": 5,
+				"uniques": [ "[+2 Gold] from every [Early Merchant]" ],
+				"prerequisites": [ "Standarization", "Bronze Working" ]
+
+			},
+			{
+				"name": "Metal Casting",
+				"row": 3,
+				"prerequisites": [ "Bronze Working" ]
+
+			}
+
+		]
+	},
+	{
+		"columnNumber": 16,
+		"era": "Ancient Era",
+		"techCost": 700,
+		"buildingCost": 499,
+		"techs": [
+			{
+
+				"name": "Sculpture",
+				"row": 4,
+				"prerequisites": [ "Metal Casting", "Construction" ],
+				"quote": ""
+			},
+			{
+				"name": "Iron Working",
+				"row": 3,
+				"uniques": [ "[+3 Production] [in all cities]", "[+1 Production] from every [Peasant]" ],
+				"prerequisites": [ "Metal Casting", "Currency" ]
+
+			},
+			{
+				"name": "Trade",
+				"row": 5,
+				"uniques": [ "[+3 Gold] [in all cities]", "[+2 Gold] from every [Early Merchant]", "[+1 Gold] from every [Peasant]" ],
+				"prerequisites": [ "Currency", "Naval Warfare" ]
+
+			},
+			{
+				"name": "Gardening",
+				"row": 6,
+				"uniques":["[+2 Food] from every [Peasant]"],
+				"prerequisites": [ "Sewer Systems" ]
+
+			},
+			{
+				"name": "Sundial",
+				"row": 7,
+				"prerequisites": [ "Mathematics", "Construction" ]
+				"uniques": [ "[+2 Science] [in all cities]" ]
+
+			},
+			{
+				"name": "Priesthood",
+				"row": 8,
+				"uniques": ["[+1 Happiness] from every [Early Entertainer]" ],
+				"prerequisites": [ "Poetry", "Alphabet" ]
+
+			},
+			{
+				"name": "Scriptures",
+				"row": 9,
+				"uniques": [ "[+2 Science] [in all cities]" ],
+				"prerequisites": [ "Poetry", "Alphabet" ]
+
+			}
+
+		]
+	},
+	{
+		"columnNumber": 17,
+		"era": "Ancient Era",
+		"techCost": 800,
+		"buildingCost": 499,
+		"techs": [
+			{
+
+				"name": "Meditation",
+				"row": 8,
+				"prerequisites": [ "Priesthood" ],
+				"uniques": [ "[+1 Happiness] from every [Early Entertainer]" ],
+				"quote": ""
+			},
+			{
+				"name": "Optics",
+				"row": 2,
+				"prerequisites": [ "Sundial", "Naval Warfare" ]
+
+			},
+			{
+				"name": "Engineering",
+				"row": 4,
+				"uniques": [ "[+3 Science] [in all cities]", "[+3 Production] [in all cities]" ],
+				"prerequisites": [ "Sculpture", "Iron Working", "Gardening" ]
+
+			},
+			{
+				"name": "Cartography",
+				"row": 5,
+				"prerequisites": [ "Trade", "Scriptures" ]
+				"uniques": [
+					"All newly-trained [Melee] units [in this city] receive the [Speed I] promotion",
+					"All newly-trained [Scout] units [in this city] receive the [Speed I] promotion",
+					"All newly-trained [Ranged] units [in this city] receive the [Speed I] promotion",
+					"All newly-trained [Mounted] units [in this city] receive the [Speed I] promotion",
+					"All newly-trained [Water civillian] units [in this city] receive the [Speed I] promotion",
+					"All newly-trained [Water melee] units [in this city] receive the [Speed I] promotion",
+					"All newly-trained [Water ranged] units [in this city] receive the [Speed I] promotion"
+				]
+
+			},
+			{
+				"name": "Monarchy",
+				"row": 6,
+				"uniques": [
+					"[+2 Happiness] from every [Noble]",
+					"[+2 Production] from every [Noble]",
+					"[+2 Culture] from every [Noble]",
+					"[+2 Gold] from every [Noble]",
+					"[+2 Food] from every [Noble]",
+					"[+2 Science] from every [Noble]",
+					"[-2 Happiness] from every [Peasant]"
+				],
+				"prerequisites": [ "Gardening", "Priesthood" ]
+
+			},
+			{
+				"name": "Monotheism",
+				"uniques": [ "[+1 Happiness] from every [Early Entertainer]" ],
+				"row": 7,
+				"prerequisites": [ "Scriptures", "Priesthood" ]
+
+			}
+
+		]
+	},
+	{
+		"columnNumber": 18,
+		"era": "Classical Era",
+		"techCost": 900,
+		"buildingCost": 499,
+		"techs": [
+			{
+
+				"name": "Greek Philosophy",
+				"row": 5,
+				"uniques": [ "Free Technology" ],
+				"prerequisites": [ "Optics", "Engineering", "Cartography", "Monarchy", "Meditation", "Monotheism" ],
+				"quote": ""
+			}
+
+		]
+	}
+]
