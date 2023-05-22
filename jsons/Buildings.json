@@ -703,7 +703,7 @@
 		"specialistSlots": {
 			"Early Scientist": 1
 		},
-		"uniques": [ "Free Technology", "[+1 Culture from every [Early Scientist]" ]
+		"uniques": [ "Free Technology", "[+1 Culture] from every [Early Scientist]" ]
 
 	},
 	{
@@ -732,7 +732,7 @@
 		"specialistSlots": {
 			"Early Engineer": 1
 		},
-		"uniques": [ "[+1 Culture from every [Early Engineer]", "New [Melee] units start with [20] Experience [in this city]", "[+15]% Production when constructing [Melee] units [in this city]" ]
+		"uniques": [ "[+1 Culture] from every [Early Engineer]", "New [Melee] units start with [20] Experience [in this city]", "[+15]% Production when constructing [Melee] units [in this city]" ]
 
 	},
 	{
