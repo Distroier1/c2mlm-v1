@@ -358,6 +358,16 @@
 		"requiredTech": "Megalith Construction",
 		"specialistSlots": { "Early Scientist": 1 }
 	},
+{
+"name": "Megalithic Temples of Maltha",
+		"culture": 3,
+		"happiness": 2,
+		"faith": 4,
+		"cost": 320,
+		"isWonder": true,
+		"requiredTech": "Megalith Construction",
+		"specialistSlots": { "Early Engineer": 1 }
+	},
 	{
 		"name": "Hill of Tara",
 		"culture": 2,
@@ -452,6 +462,20 @@
 			"Early Engineer": 1
 		},
 		"uniques": [ "[+1 Production] from every [Early Scientist]" ]
+
+	},
+{
+"name": "Göbekli Tepe",
+		"culture": 3,
+		"science": 6,
+		"cost": 400,
+		"isWonder": true,
+		"requiredTech": "Calendar",
+		"specialistSlots": {
+			"Early Scientist": 1,
+			"Early Engineer": 1
+		},
+		"uniques": [ "[+1 Science] from every [Early Scientist]" ]
 
 	},
 	{
