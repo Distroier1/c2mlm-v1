@@ -889,7 +889,6 @@
 	{
 		"name": "Lighthouse",
 		"Food": 3,
-		"maintenance": 3,
 		"cost": 400,
 		"uniques": [ "[+2]% [Food] [in this city]", "Must be next to [Coast]" ],
 		"requiredTech": "Optics"
@@ -932,7 +931,40 @@
 		"cost": 500,
 		"uniques": [ "[+2]% [Faith] [in this city]" ],
 		"requiredTech": "Monotheism"
-	}
+	},
+{
+		"name": "High Walls",
+		"cityStrength": 10,
+		"maintenance": 5,
+		"cost": 500,
+		"requiredTech": "Engineering",
+		"uniques": [ "Destroyed when the city is captured" ]
+	},
+{
+"name": "Bath",
+		"culture": 2,
+		"food": 1,
+		"happiness": 3,
+		"cost": 250,
+		"requiredTech": "Sewer Systems"
+
+	},
+{
+"name": "Harbour",
+		"food": 5,
+		"maintenance": 3,
+		"cost": 400,
+		"uniques": [ "[+2]% [Food] [in this city]", "Must be next to [Coast]" ],
+		"requiredTech": "Optics"
+	},
+{
+name": "Stone Bridge",
+		"gold": 2,
+		"production": 2,
+		"cost": 250,
+		"requiredTech": "Bridge Building"
+	},
+
 
 
 
