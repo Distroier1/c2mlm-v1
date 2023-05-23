@@ -6,8 +6,8 @@
 		"name": "Paleolithic Era",
 		"cost": 1,
 		"happiness": -12,
-		"culture": 1,
-		"production": -1,
+		"culture": -5,
+		"production": -15,
 		"uniques": [ "Unsellable", "[-1] production per [2] population [in this city]", "[-90]% culture [in this city]" ]
 
 	},
