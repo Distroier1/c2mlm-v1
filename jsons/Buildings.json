@@ -20,6 +20,7 @@
 		"cost": 1,
 		"uniques": [ "Indicates the capital city" ]
 	},
+/*
 	{
 		"name": "Cave",
 		"production": 1,
@@ -990,7 +991,7 @@
 	},
 
 
-
+*/
 
 
 
